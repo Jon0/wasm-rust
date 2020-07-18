@@ -37,5 +37,12 @@ opt-level = "s"
 [dependencies.web-sys]
 version = "0.3"
 features = [
-	"Window", "Document", "Element", "HtmlElement", "console", "Node"
+	"Window", "Document", "Element", "HtmlElement", "console", "Node",
+  'AudioContext',
+  'AudioDestinationNode',
+  'AudioNode',
+  'AudioParam',
+  'GainNode',
+  'OscillatorNode',
+  'OscillatorType',
 ]
